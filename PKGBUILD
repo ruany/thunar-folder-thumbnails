@@ -16,4 +16,5 @@ sha256sums=('4079476266971a1d6e48360fa3e1ee038ed9e91eb85bc089569ea0dbde3d24d4'
 package() {
 	install -Dvm644 "folder.thumbnailer" "$pkgdir/usr/share/thumbnailers/folder.thumbnailer"
 	install -Dvm755 "folder-thumbnailer.sh" "$pkgdir/usr/bin/folder-thumbnailer"
+ 	install -Dvm755 "thumbnailify.sh" "$pkgdir/usr/bin/thumbnailify"
 }
