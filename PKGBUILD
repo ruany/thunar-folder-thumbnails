@@ -7,7 +7,6 @@ arch=('any')
 url="https://docs.xfce.org/xfce/tumbler/available_plugins"
 license=('BSD')
 depends=('tumbler' 'imagemagick')
-optdepends=('inkscape: for SVG support')
 source=('folder.thumbnailer'
 		'folder-thumbnailer.sh'
         'thumbnailify.sh')
